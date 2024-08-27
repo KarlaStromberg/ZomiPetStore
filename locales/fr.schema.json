@@ -942,6 +942,9 @@
           },
           "options__4": {
             "label": "Centré au milieu"
+          },
+          "options__5": {
+            "label": "Centre gauche"
           }
         },
         "menu": {
