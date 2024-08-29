@@ -1106,6 +1106,21 @@
             "label": "Left center"
           }
         },
+        "menu_font_size": {
+          "label": "Navigation size adjustment"
+        },
+        "menu_font_style": {
+          "label": "Navigation font style",
+          "options__1": {
+            "label": "Uppercase"
+          },
+          "options__2": {
+            "label": "Normal"
+          },
+          "options__3": {
+            "label": "Lowercase"
+          }
+        },
         "menu": {
           "label": "Menu"
         },

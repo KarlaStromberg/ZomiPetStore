@@ -947,6 +947,21 @@
             "label": "Centre gauche"
           }
         },
+        "menu_font_size": {
+          "label": "Réglage de la taille de la navigation"
+        },
+        "menu_font_style": {
+          "label": "Style de police de la navigation",
+          "options__1": {
+            "label": "Majuscules"
+          },
+          "options__2": {
+            "label": "Normal"
+          },
+          "options__3": {
+            "label": "Minuscules"
+          }
+        },
         "menu": {
           "label": "Menu"
         },
