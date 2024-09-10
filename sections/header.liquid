@@ -182,6 +182,7 @@
       {%- endif -%}
     {%- endif -%}
 
+    <div class="header--{{ section.settings.menu_font_weight}}">
     {%- liquid
       if section.settings.menu != blank
         if section.settings.menu_type_desktop == 'dropdown'
@@ -191,6 +192,8 @@
         endif
       endif
     %}
+    </div>
+    
 
     {%- if section.settings.logo_position == 'middle-center' -%}
       {%- if request.page_type == 'index' -%}
@@ -522,6 +525,26 @@
       ],
       "default": "normal",
       "label": "t:sections.header.settings.menu_font_style.label"
+    },
+    {
+      "type": "select",
+      "id": "menu_font_weight",
+      "options": [
+        {
+          "value": "normal",
+          "label": "t:sections.header.settings.menu_font_weight.options__1.label"
+        },
+        {
+          "value": "bold",
+          "label": "t:sections.header.settings.menu_font_weight.options__2.label"
+        },
+        {
+          "value": "bolder",
+          "label": "t:sections.header.settings.menu_font_weight.options__3.label"
+        }
+      ],
+      "default": "normal",
+      "label": "t:sections.header.settings.menu_font_weight.label"
     },
     {
       "type": "link_list",

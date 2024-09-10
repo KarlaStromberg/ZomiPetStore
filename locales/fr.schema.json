@@ -962,6 +962,18 @@
             "label": "Minuscules"
           }
         },
+        "menu_font_weight": {
+          "label": "Poids des caractères de navigation",
+          "options__1": {
+            "label": "Normal"
+          },
+          "options__2": {
+            "label": "En gras"
+          },
+          "options__3": {
+            "label": "Plus gras"
+          }
+        },
         "menu": {
           "label": "Menu"
         },

@@ -2404,6 +2404,13 @@ input[type='checkbox'] {
     margin-top: 1.05rem;
   }
 
+  .header--bold{
+    --font-body-weight: 700;
+  }
+
+  .header--bolder{
+    --font-body-weight:900;
+  }
   
 }
 
@@ -2766,7 +2773,7 @@ details[open] > .header__submenu {
   }
 
   .header--left-center .header__inline-menu {
-    margin:auto;
+    text-align: center;
   }
 }
 

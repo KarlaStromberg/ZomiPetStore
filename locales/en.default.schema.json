@@ -1121,6 +1121,18 @@
             "label": "Lowercase"
           }
         },
+        "menu_font_weight": {
+          "label": "Navigation font weight",
+          "options__1": {
+            "label": "Normal"
+          },
+          "options__2": {
+            "label": "Bold"
+          },
+          "options__3": {
+            "label": "Bolder"
+          }
+        },
         "menu": {
           "label": "Menu"
         },
