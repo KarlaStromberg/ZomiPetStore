@@ -2402,16 +2402,8 @@ input[type='checkbox'] {
 
   .header:not(.header--middle-left, .header--middle-center, .header--left-center,) .header__inline-menu {
     margin-top: 1.05rem;
-  }
+  } 
 
-  .header--bold{
-    --font-body-weight: 700;
-  }
-
-  .header--bolder{
-    --font-body-weight:900;
-  }
-  
 }
 
 .header *[tabindex='-1']:focus {
@@ -3083,6 +3075,7 @@ details-disclosure > details {
 .font-body-bold {
   font-weight: var(--font-body-weight-bold);
 }
+
 
 /* outline and border styling for Windows High Contrast Mode */
 @media (forced-colors: active) {

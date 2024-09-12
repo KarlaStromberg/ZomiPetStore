@@ -182,7 +182,7 @@
       {%- endif -%}
     {%- endif -%}
 
-    <div class="header--{{ section.settings.menu_font_weight}}">
+    <div class="font-body-{{ section.settings.menu_font_weight}}">
     {%- liquid
       if section.settings.menu != blank
         if section.settings.menu_type_desktop == 'dropdown'
@@ -537,10 +537,6 @@
         {
           "value": "bold",
           "label": "t:sections.header.settings.menu_font_weight.options__2.label"
-        },
-        {
-          "value": "bolder",
-          "label": "t:sections.header.settings.menu_font_weight.options__3.label"
         }
       ],
       "default": "normal",
