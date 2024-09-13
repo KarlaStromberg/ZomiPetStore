@@ -28,7 +28,8 @@
         "button"
       ],
       "custom_css": [
-        ".media > img {object-position: right center;}"
+        ".media > img {object-position: right center;}",
+        ".button{font-weight:bold;}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/1.png",
