@@ -47,8 +47,11 @@
     },
     "featured_collection": {
       "type": "featured-collection",
+      "custom_css": [
+
+      ],
       "settings": {
-        "title": "Shop Bestsellers",
+        "title": "<a href=\"\/collections\/all\" title=\"All\">Shop Bestsellers<\/a>",
         "heading_size": "h1",
         "description": "",
         "show_description": false,
@@ -56,9 +59,9 @@
         "collection": "all",
         "products_to_show": 8,
         "columns_desktop": 4,
-        "full_width": true,
+        "full_width": false,
         "show_view_all": false,
-        "view_all_style": "solid",
+        "view_all_style": "outline",
         "enable_desktop_slider": true,
         "color_scheme": "scheme-1",
         "image_ratio": "adapt",
