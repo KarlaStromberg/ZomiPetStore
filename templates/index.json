@@ -27,6 +27,9 @@
       "block_order": [
         "button"
       ],
+      "custom_css": [
+        ".media > img {object-position: right center;}"
+      ],
       "settings": {
         "image": "shopify:\/\/shop_images\/1.png",
         "image_overlay_opacity": 0,
