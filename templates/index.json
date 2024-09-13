@@ -48,7 +48,7 @@
     "featured_collection": {
       "type": "featured-collection",
       "custom_css": [
-        ".title a {text-decoration:none;}"
+        ".title a {text-decoration: none;}"
       ],
       "settings": {
         "title": "<a href=\"\/collections\/all\" title=\"All\">Shop Bestsellers<\/a>",
@@ -189,6 +189,61 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "featured_blog_fwHt7z": {
+      "type": "featured-blog",
+      "settings": {
+        "heading": "Pet Care Guide",
+        "heading_size": "h1",
+        "blog": "news",
+        "post_limit": 3,
+        "columns_desktop": 3,
+        "color_scheme": "",
+        "show_image": true,
+        "show_date": true,
+        "show_author": false,
+        "show_view_all": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "collage_KpG9xy": {
+      "type": "collage",
+      "blocks": {
+        "image_6bmYPR": {
+          "type": "image",
+          "settings": {
+          }
+        },
+        "product_NLkQrw": {
+          "type": "product",
+          "settings": {
+            "product": "",
+            "second_image": false
+          }
+        },
+        "collection_YmYE7E": {
+          "type": "collection",
+          "settings": {
+            "collection": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_6bmYPR",
+        "product_NLkQrw",
+        "collection_YmYE7E"
+      ],
+      "settings": {
+        "heading": "Multimedia collage",
+        "heading_size": "h1",
+        "desktop_layout": "left",
+        "mobile_layout": "column",
+        "card_styles": "product-card-wrapper",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -196,6 +251,8 @@
     "featured_collection",
     "image_banner_QgEpri",
     "newsletter_LwHyGB",
-    "featured_product_cmAEaQ"
+    "featured_product_cmAEaQ",
+    "featured_blog_fwHt7z",
+    "collage_KpG9xy"
   ]
 }
