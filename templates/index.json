@@ -29,7 +29,7 @@
       ],
       "custom_css": [
         ".media > img {object-position: right center;}",
-        ".button {font-weight: bold;--shadow-opacity:0;}"
+        ".button {font-weight: bold; --shadow-opacity: 0;}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/1.png",
@@ -193,14 +193,14 @@
     "featured_blog_fwHt7z": {
       "type": "featured-blog",
       "settings": {
-        "heading": "Pet Care Guide",
+        "heading": "Pet Care Guides",
         "heading_size": "h1",
         "blog": "news",
         "post_limit": 3,
         "columns_desktop": 3,
         "color_scheme": "scheme-1",
         "show_image": true,
-        "show_date": true,
+        "show_date": false,
         "show_author": false,
         "show_view_all": true,
         "padding_top": 36,
