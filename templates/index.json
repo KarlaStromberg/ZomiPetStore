@@ -73,6 +73,49 @@
         "padding_bottom": 36
       }
     },
+    "image_banner_QgEpri": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/2.png",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "bottom-right",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": true
+      }
+    },
+    "newsletter_LwHyGB": {
+      "type": "newsletter",
+      "blocks": {
+        "heading_WzJahR": {
+          "type": "heading",
+          "settings": {
+            "heading": "Join now",
+            "heading_size": "h1"
+          }
+        },
+        "email_form_gXfJrH": {
+          "type": "email_form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "heading_WzJahR",
+        "email_form_gXfJrH"
+      ],
+      "settings": {
+        "color_scheme": "scheme-c8ed52b4-6eac-4652-868b-2906f5ec3a7c",
+        "full_width": true,
+        "padding_top": 44,
+        "padding_bottom": 52
+      }
+    },
     "featured_product_cmAEaQ": {
       "type": "featured-product",
       "blocks": {
@@ -148,6 +191,8 @@
   "order": [
     "image_banner",
     "featured_collection",
+    "image_banner_QgEpri",
+    "newsletter_LwHyGB",
     "featured_product_cmAEaQ"
   ]
 }
