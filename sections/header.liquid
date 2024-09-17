@@ -98,6 +98,13 @@
       padding-bottom: {{ section.settings.padding_bottom }}px;
     }
   }
+
+  @media screen and (max-width: 990px) {
+  .header__heading-logo-wrapper{
+      width:{{ section.settings.mobile_logo_width }}px;
+    }
+}
+
 {%- endstyle -%}
 
 <script src="{{ 'cart-notification.js' | asset_url }}" defer="defer"></script>
@@ -495,6 +502,16 @@
       "default": "middle-left",
       "label": "t:sections.header.settings.logo_position.label",
       "info": "t:sections.header.settings.logo_help.content"
+    },
+    {
+      "type": "range",
+      "id": "mobile_logo_width",
+      "min": 20,
+      "max": 150,
+      "step": 10,
+      "unit": "px",
+      "label": "t:sections.header.settings.mobile_logo_width.label",
+      "default": 90
     },
     {
       "type": "range",

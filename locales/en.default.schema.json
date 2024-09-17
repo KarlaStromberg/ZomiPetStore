@@ -1106,6 +1106,9 @@
             "label": "Left center"
           }
         },
+        "mobile_logo_width": {
+          "label": "Mobile logo size"
+        },
         "menu_font_size": {
           "label": "Navigation size adjustment"
         },

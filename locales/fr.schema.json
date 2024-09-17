@@ -947,6 +947,9 @@
             "label": "Centre gauche"
           }
         },
+        "mobile_logo_width": {
+          "label": "Taille du logo mobile"
+        },
         "menu_font_size": {
           "label": "Réglage de la taille de la navigation"
         },
