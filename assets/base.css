@@ -2375,7 +2375,7 @@ input[type='checkbox'] {
 
   .header--left-center:not(.drawer-menu) {
     grid-template-areas: 'heading navigation icons';
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr auto 1fr;
     column-gap: 2rem;
   }
 
