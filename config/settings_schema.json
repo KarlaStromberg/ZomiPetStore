@@ -506,6 +506,13 @@
         "label": "t:settings_schema.cards.settings.style.label"
       },
       {
+        "type": "checkbox",
+        "id": "card_price_on_hover",
+        "default": true,
+        "label": "t:settings_schema.global.settings.card_price_on_hover.label",
+        "info": "t:settings_schema.global.settings.card_price_on_hover.info"
+      },
+      {
         "type": "range",
         "id": "card_image_padding",
         "min": 0,

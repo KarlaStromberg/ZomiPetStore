@@ -454,12 +454,27 @@
   flex-grow: 1;
 }
 
+@media screen and (min-width: 1200px) {
+
+.card--price-on-hover .price {
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s, opacity 0.5s linear;
+}
+
+.card--price-on-hover:hover .price {
+   visibility: visible;
+   opacity: 1;
+}
+}
+
 .card .icon-wrap {
   margin-left: 0.8rem;
   white-space: nowrap;
   transition: transform var(--duration-short) ease;
   overflow: hidden;
-}
+  }
+
 
 .card-information > * + * {
   margin-top: 0.5rem;
