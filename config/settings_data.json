@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "current": {
     "logo": "shopify:\/\/shop_images\/Logo-Zomi.png",
@@ -13,13 +22,13 @@
     "spacing_grid_vertical": 16,
     "animations_reveal_on_scroll": true,
     "animations_hover_elements": "default",
-    "buttons_border_thickness": 1,
+    "buttons_border_thickness": 0,
     "buttons_border_opacity": 100,
     "buttons_radius": 22,
-    "buttons_shadow_opacity": 0,
-    "buttons_shadow_horizontal_offset": 0,
+    "buttons_shadow_opacity": 100,
+    "buttons_shadow_horizontal_offset": -4,
     "buttons_shadow_vertical_offset": 4,
-    "buttons_shadow_blur": 5,
+    "buttons_shadow_blur": 0,
     "variant_pills_border_thickness": 1,
     "variant_pills_border_opacity": 55,
     "variant_pills_radius": 0,
@@ -27,9 +36,9 @@
     "variant_pills_shadow_horizontal_offset": 0,
     "variant_pills_shadow_vertical_offset": 4,
     "variant_pills_shadow_blur": 5,
-    "inputs_border_thickness": 1,
+    "inputs_border_thickness": 3,
     "inputs_border_opacity": 55,
-    "inputs_radius": 0,
+    "inputs_radius": 40,
     "inputs_shadow_opacity": 0,
     "inputs_shadow_horizontal_offset": 0,
     "inputs_shadow_vertical_offset": 4,
@@ -142,7 +151,7 @@
           "background": "#faf9f6",
           "background_gradient": "",
           "text": "#414a4c",
-          "button": "#414a4c",
+          "button": "#121212",
           "button_label": "#faf9f6",
           "secondary_button_label": "#414a4c",
           "shadow": "#414a4c"
@@ -198,6 +207,28 @@
           "background_gradient": "",
           "text": "#414a4c",
           "button": "#414a4c",
+          "button_label": "#faf9f6",
+          "secondary_button_label": "#414a4c",
+          "shadow": "#414a4c"
+        }
+      },
+      "scheme-c8ed52b4-6eac-4652-868b-2906f5ec3a7c": {
+        "settings": {
+          "background": "#ffffff",
+          "background_gradient": "linear-gradient(299deg, rgba(217, 242, 171, 1) 16%, rgba(255, 163, 212, 1) 49%, rgba(255, 201, 104, 1) 79%)",
+          "text": "#121212",
+          "button": "#000000",
+          "button_label": "#faf9f6",
+          "secondary_button_label": "#121212",
+          "shadow": "#000000"
+        }
+      },
+      "scheme-825f5c37-7ae2-4288-b8e1-eae83235264e": {
+        "settings": {
+          "background": "#faf9f6",
+          "background_gradient": "linear-gradient(270deg, rgba(240, 110, 105, 1), rgba(249, 208, 163, 1) 100%)",
+          "text": "#414a4c",
+          "button": "#b3e6f1",
           "button_label": "#faf9f6",
           "secondary_button_label": "#414a4c",
           "shadow": "#414a4c"
