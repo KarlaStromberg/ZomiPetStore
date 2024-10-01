@@ -948,6 +948,9 @@
             "label": "Centre gauche"
           }
         },
+        "transparent_header": {
+          "label": "Activer l'en-tête transparent"
+        },
         "mobile_logo_width": {
           "label": "Taille du logo mobile"
         },

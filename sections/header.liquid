@@ -25,6 +25,14 @@
     }
   {%- endif -%}
 
+  {%- if section.settings.transparent_header == true -%}
+   .shopify-section-group-header-group:not(.scrolled-past-header) .header {
+    position: absolute;
+    width: 100%; 
+  }
+
+  {%- endif -%}
+
   {%- if section.settings.menu_type_desktop != "drawer" -%}
     @media screen and (min-width: 990px) {
       header-drawer {
@@ -479,6 +487,7 @@
       "type": "select",
       "id": "logo_position",
       "options": [
+
         {
           "value": "top-left",
           "label": "t:sections.header.settings.logo_position.options__2.label"
@@ -503,6 +512,12 @@
       "default": "middle-left",
       "label": "t:sections.header.settings.logo_position.label",
       "info": "t:sections.header.settings.logo_help.content"
+    },
+    {
+      "type": "checkbox",
+      "id": "transparent_header",
+      "default": true,
+      "label": "t:sections.header.settings.transparent_header.label"
     },
     {
       "type": "range",

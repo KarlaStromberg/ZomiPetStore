@@ -1111,6 +1111,9 @@
             "label": "Left center"
           }
         },
+        "transparent_header": {
+          "label": "Enable transparent header"
+        },
         "mobile_logo_width": {
           "label": "Mobile logo size"
         },
