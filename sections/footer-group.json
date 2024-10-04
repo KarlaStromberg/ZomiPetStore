@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "name": "t:sections.footer.name",
   "type": "footer",
@@ -8,22 +17,16 @@
         "image_QMVrpf": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Logo-Zomi-white.png",
+            "image": "shopify://shop_images/Logo-Zomi-white.png",
             "image_width": 150,
             "alignment": ""
-          }
-        },
-        "brand_information_bCFJCe": {
-          "type": "brand_information",
-          "settings": {
-            "show_social": true
           }
         },
         "text_AaynMk": {
           "type": "text",
           "settings": {
-            "heading": "Heading",
-            "subtext": "<p>Share contact information, store details, and brand content with your customers.<\/p>"
+            "heading": "<strong>We get it</strong>",
+            "subtext": "<p>You want the best for your pet without sacrificing style. At Zomi, we handpick only the essentials that are as practical as they are beautiful. Think of it as spoiling your pet, but with taste. <strong>No clutter, no compromises</strong>—just well-designed gear your pet will love (and you’ll be proud to show off).</p>"
           }
         },
         "link_list_Lk7hzy": {
@@ -36,7 +39,6 @@
       },
       "block_order": [
         "image_QMVrpf",
-        "brand_information_bCFJCe",
         "text_AaynMk",
         "link_list_Lk7hzy"
       ],
