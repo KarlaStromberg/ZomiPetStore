@@ -51,7 +51,7 @@
         "link_list_Lk7hzy"
       ],
       "custom_css": [
-        ".footer-block--menu .list-unstyled {text-align: left;}"
+        ".footer-block--menu h2, .footer-block--menu .list-unstyled{text-align:right;}"
       ],
       "settings": {
         "color_scheme": "scheme-3",
