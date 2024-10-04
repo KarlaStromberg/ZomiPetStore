@@ -14,14 +14,6 @@
     "footer": {
       "type": "footer",
       "blocks": {
-        "image_QMVrpf": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Logo-Zomi-white.png",
-            "image_width": 150,
-            "alignment": ""
-          }
-        },
         "text_AaynMk": {
           "type": "text",
           "settings": {
@@ -42,16 +34,24 @@
             "heading": "Find more",
             "menu": "main-menu"
           }
+        },
+        "image_QMVrpf": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Logo-Zomi-white.png",
+            "image_width": 230,
+            "alignment": "right"
+          }
         }
       },
       "block_order": [
-        "image_QMVrpf",
         "text_AaynMk",
         "link_list_3XkFfE",
-        "link_list_Lk7hzy"
+        "link_list_Lk7hzy",
+        "image_QMVrpf"
       ],
       "custom_css": [
-        ".footer-block--menu h2,.footer-block--menu .list-unstyled {text-align: right;}",
+        ".footer-block--menu h2,.footer-block--menu .list-unstyled {text-align: center;}",
         "@media screen and (min-width: 750px) {.footer-block__details-content > li:not(:last-child) {margin-right: 0rem; }}"
       ],
       "settings": {
