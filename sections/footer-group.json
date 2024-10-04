@@ -29,26 +29,26 @@
             "subtext": "<p>You want the best for your pet without sacrificing style. At Zomi, we handpick only the essentials that are as practical as they are beautiful. Think of it as spoiling your pet, but with taste. <strong>No clutter, no compromises</strong>—just well-designed gear your pet will love (and you’ll be proud to show off).</p>"
           }
         },
+        "link_list_3XkFfE": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Shop",
+            "menu": "main-menu"
+          }
+        },
         "link_list_Lk7hzy": {
           "type": "link_list",
           "settings": {
             "heading": "Find more",
             "menu": "main-menu"
           }
-        },
-        "link_list_3XkFfE": {
-          "type": "link_list",
-          "settings": {
-            "heading": "Quick links",
-            "menu": "footer"
-          }
         }
       },
       "block_order": [
         "image_QMVrpf",
         "text_AaynMk",
-        "link_list_Lk7hzy",
-        "link_list_3XkFfE"
+        "link_list_3XkFfE",
+        "link_list_Lk7hzy"
       ],
       "custom_css": [
 
