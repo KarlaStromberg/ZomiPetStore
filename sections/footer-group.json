@@ -35,12 +35,23 @@
             "heading": "Find more",
             "menu": "main-menu"
           }
+        },
+        "link_list_3XkFfE": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Quick links",
+            "menu": "footer"
+          }
         }
       },
       "block_order": [
         "image_QMVrpf",
         "text_AaynMk",
-        "link_list_Lk7hzy"
+        "link_list_Lk7hzy",
+        "link_list_3XkFfE"
+      ],
+      "custom_css": [
+
       ],
       "settings": {
         "color_scheme": "scheme-3",
