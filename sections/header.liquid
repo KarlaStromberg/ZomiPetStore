@@ -27,7 +27,7 @@
 
   {%- if section.settings.transparent_header == true -%}
 
-  .shopify-section-group-header-group:not(:hover,.scrolled-past-header, .menu-open) .header {
+  .shopify-section-group-header-group:not(.scrolled-past-header, .menu-open) .header {
     position: absolute;
     width: 100%; 
   }
@@ -483,9 +483,11 @@
       "url": {{ request.origin | append: page.url | json }}
     }
   </script>
+
 {%- endif -%}
 
-/* Open mega-menu on hover */
+{% comment %} Open mega-menu on hover {% endcomment %}  
+
 <script>
   let items = document.querySelectorAll(".mega-menu")
   let currentItemIndex
@@ -520,7 +522,7 @@
   })
 </script>
 
-{% schema %}
+{% schema %}  
 {
   "name": "t:sections.header.name",
   "class": "section-header",
