@@ -26,10 +26,18 @@
   {%- endif -%}
 
   {%- if section.settings.transparent_header == true -%}
-   .shopify-section-group-header-group:not(.scrolled-past-header) .header {
+
+  .shopify-section-group-header-group:not(:hover,.scrolled-past-header, .menu-open) .header {
     position: absolute;
     width: 100%; 
   }
+
+
+	@media screen and (min-width: 900px) {
+    .shopify-section-group-header-group:has(details[open]) .header {
+  position: relative;
+}
+}
 
   {%- endif -%}
 
