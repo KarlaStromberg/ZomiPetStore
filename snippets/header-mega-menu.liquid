@@ -72,9 +72,19 @@
                 </div>
             
                <div class="mega-menu__image">
-	                  {% if section.settings.first_image %}
-	                  {{ section.settings.first_image | image_url: width: 300 | image_tag }}
-	                  {% endif %}
+
+               {% if section.settings.first_image and section.settings.first_image_link %}
+                <a href={{section.settings.first_image_link}}>{{ section.settings.first_image | image_url: width: 350 | image_tag: loading: 'lazy' }}</a>
+                {% elsif section.settings.first_image %}
+                  {{ section.settings.first_image | image_url: width: 350 | image_tag: loading: 'lazy' }}
+                {% endif %}
+
+                {% if section.settings.second_image and section.settings.second_image_link %}
+                  <a href={{section.settings.second_image_link}}>{{ section.settings.second_image | image_url: width: 350 | image_tag: loading: 'lazy' }}</a>
+                  {% elsif section.settings.second_image %}
+                    {{ section.settings.second_image | image_url: width: 350 | image_tag: loading: 'lazy' }}
+                  {% endif %}
+
 	            </div>
             </div>
             </details>

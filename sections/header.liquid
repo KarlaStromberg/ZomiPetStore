@@ -25,7 +25,7 @@
     }
   {%- endif -%}
 
-  {%- if section.settings.transparent_header == true -%}
+  {%- if section.settings.transparent_header == true and template == 'index'-%}
 
   .shopify-section-group-header-group:not(.scrolled-past-header, .menu-open) .header {
     position: absolute;
@@ -650,7 +650,22 @@
     {
         "type": "image_picker",
         "id": "first_image",
-        "label": "t:settings_schema.logo.settings.first_image.label"
+        "label": "t:sections.header.settings.first_image.label"
+      },
+      {
+        "type": "url",
+        "id": "first_image_link",
+        "label": "t:sections.header.settings.first_image_link.label"
+      },
+      {
+        "type": "image_picker",
+        "id": "second_image",
+        "label": "t:sections.header.settings.second_image.label"
+      },
+      {
+        "type": "url",
+        "id": "second_image_link",
+        "label": "t:sections.header.settings.second_image_link.label"
       },
     {
       "type": "select",

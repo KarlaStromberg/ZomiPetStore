@@ -46,6 +46,9 @@
 
 .mega-menu__image{
   max-width: 50%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
 }
 
 .mega-menu__list {

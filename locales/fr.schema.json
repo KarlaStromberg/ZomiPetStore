@@ -981,6 +981,18 @@
         "menu": {
           "label": "Menu"
         },
+        "first_image": {
+          "label": "Image du méga menu"
+        },
+        "first_image_link": {
+          "label": "URL de l'image du méga menu"
+        },
+        "second_image": {
+          "label": "Image du méga menu 2"
+        },
+        "second_image_link": {
+          "label": " Mega menu image URL 2"
+        },
         "show_line_separator": {
           "label": "Afficher la ligne de séparation"
         },

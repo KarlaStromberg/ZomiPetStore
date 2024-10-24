@@ -1157,6 +1157,18 @@
             "label": "Drawer"
           }
         },
+        "first_image": {
+          "label": "Mega menu image"
+        },
+        "first_image_link": {
+          "label": "Mega menu image URL"
+        },
+        "second_image": {
+          "label": "Mega menu image 2"
+        },
+        "second_image_link": {
+          "label": "Mega menu image URL 2"
+        },
         "show_line_separator": {
           "label": "Show separator line"
         },
