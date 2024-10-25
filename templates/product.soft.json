@@ -135,7 +135,7 @@
         "column_BLbY6R"
       ],
       "settings": {
-        "title": "Multicolumn",
+        "title": "What are the benefits of the {{ product.title }}?",
         "heading_size": "h1",
         "image_width": "full",
         "image_ratio": "adapt",
