@@ -157,14 +157,14 @@
         "heading_GDbGQe": {
           "type": "heading",
           "settings": {
-            "heading": "Join the Zomi club",
+            "heading": "Join the <strong>Zomi</strong> club",
             "heading_size": "h1"
           }
         },
         "paragraph_Re69r4": {
           "type": "paragraph",
           "settings": {
-            "text": "<p>Get 10% for all purchases!</p>"
+            "text": "<p>Get 10% off for all purchases!</p>"
           }
         },
         "email_form_mNAxng": {
