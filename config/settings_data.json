@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "current": {
     "logo": "shopify://shop_images/Logo-Zomi.png",
@@ -229,6 +229,17 @@
           "background_gradient": "linear-gradient(270deg, rgba(240, 110, 105, 1), rgba(249, 208, 163, 1) 100%)",
           "text": "#414a4c",
           "button": "#b3e6f1",
+          "button_label": "#faf9f6",
+          "secondary_button_label": "#414a4c",
+          "shadow": "#414a4c"
+        }
+      },
+      "scheme-b0a2c5b5-1cb3-479b-b13c-e5f74233c21b": {
+        "settings": {
+          "background": "#f3f3f3",
+          "background_gradient": "linear-gradient(270deg, rgba(255, 227, 211, 1), rgba(248, 210, 224, 1) 100%)",
+          "text": "#414a4c",
+          "button": "#121212",
           "button_label": "#faf9f6",
           "secondary_button_label": "#414a4c",
           "shadow": "#414a4c"
