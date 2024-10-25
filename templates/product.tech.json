@@ -1,0 +1,243 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "dropdown",
+            "swatch_shape": "circle"
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "inventory_nDRh3c": {
+          "type": "inventory",
+          "settings": {
+            "text_style": "body",
+            "inventory_threshold": 5,
+            "show_inventory_quantity": false
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true
+          }
+        },
+        "collapsible_tab_HAL9Qp": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Why is our {{ product.title }} great?",
+            "icon": "paw_print",
+            "content": "{{ product.metafields.custom.features | metafield_tag }}",
+            "page": ""
+          }
+        },
+        "collapsible_tab_HYqjqr": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Technical Details",
+            "icon": "clipboard",
+            "content": "{{ product.metafields.custom.tech_specifications | metafield_tag }}",
+            "page": ""
+          }
+        },
+        "complementary_7LM6XE": {
+          "type": "complementary",
+          "settings": {
+            "block_heading": "You may also need",
+            "make_collapsible_row": false,
+            "icon": "gluten_free",
+            "product_list_limit": 10,
+            "products_per_page": 3,
+            "pagination_style": "counter",
+            "image_ratio": "square",
+            "enable_quick_add": true
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "price",
+        "description",
+        "variant_picker",
+        "quantity_selector",
+        "inventory_nDRh3c",
+        "buy_buttons",
+        "collapsible_tab_HAL9Qp",
+        "collapsible_tab_HYqjqr",
+        "complementary_7LM6XE"
+      ],
+      "custom_css": [
+        ".complementary-slide--card .card,.complementary-slide--card .card button {background-color: transparent !important;}"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "color_scheme": "scheme-b0a2c5b5-1cb3-479b-b13c-e5f74233c21b",
+        "media_size": "small",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "gallery_layout": "stacked",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "mobile_thumbnails": "hide",
+        "hide_variants": true,
+        "enable_video_looping": false,
+        "padding_top": 100,
+        "padding_bottom": 60
+      }
+    },
+    "image_banner_BCH7Ln": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_BqCpPk": {
+          "type": "heading",
+          "settings": {
+            "heading": "",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_BqCpPk"
+      ],
+      "settings": {
+        "image": "{{ product.metafields.custom.imagebanner1.value }}",
+        "image_2": "{{ product.metafields.custom.imagebanner2.value }}",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "newsletter_ehtUYw": {
+      "type": "newsletter",
+      "blocks": {
+        "heading_GDbGQe": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Zomi</strong> club",
+            "heading_size": "h1"
+          }
+        },
+        "paragraph_Re69r4": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Get 10% off for all purchases!</p>"
+          }
+        },
+        "email_form_mNAxng": {
+          "type": "email_form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "heading_GDbGQe",
+        "paragraph_Re69r4",
+        "email_form_mNAxng"
+      ],
+      "settings": {
+        "color_scheme": "scheme-69b75569-345f-4225-9a39-74f31b1512bb",
+        "full_width": true,
+        "padding_top": 4,
+        "padding_bottom": 12
+      }
+    },
+    "multicolumn_zUAwq8": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_BLbY6R": {
+          "type": "column",
+          "repeater": "{{ product.metafields.custom.multi_column_section_product_page.value }}",
+          "settings": {
+            "title": "<strong>{{ block.repeater.headings.value }}</strong>",
+            "text": "{{ block.repeater.description | metafield_tag }}",
+            "link_label": "{{ block.repeater.link_label.value }}",
+            "link": "{{ block.repeater.link.value }}"
+          }
+        }
+      },
+      "block_order": [
+        "column_BLbY6R"
+      ],
+      "settings": {
+        "title": "What are the benefits of the {{ product.title }}?",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-b0a2c5b5-1cb3-479b-b13c-e5f74233c21b",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 88,
+        "padding_bottom": 36
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "settings": {
+        "heading": "You may also like",
+        "heading_size": "h2",
+        "products_to_show": 6,
+        "columns_desktop": 6,
+        "color_scheme": "scheme-1",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 28
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_banner_BCH7Ln",
+    "newsletter_ehtUYw",
+    "multicolumn_zUAwq8",
+    "related-products"
+  ]
+}
