@@ -103,7 +103,7 @@
       ],
       "settings": {
         "enable_sticky_info": true,
-        "color_scheme": "scheme-b0a2c5b5-1cb3-479b-b13c-e5f74233c21b",
+        "color_scheme": "scheme-3dd1020e-99c8-4f19-bc95-ccfb812f90c6",
         "media_size": "small",
         "constrain_to_viewport": true,
         "media_fit": "contain",
@@ -174,7 +174,7 @@
         "email_form_mNAxng"
       ],
       "settings": {
-        "color_scheme": "scheme-69b75569-345f-4225-9a39-74f31b1512bb",
+        "color_scheme": "scheme-ddb4b1c7-22c3-4568-8358-90a38891290b",
         "full_width": true,
         "padding_top": 4,
         "padding_bottom": 12
@@ -207,7 +207,7 @@
         "background_style": "none",
         "button_label": "",
         "button_link": "",
-        "color_scheme": "scheme-b0a2c5b5-1cb3-479b-b13c-e5f74233c21b",
+        "color_scheme": "scheme-3dd1020e-99c8-4f19-bc95-ccfb812f90c6",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 88,
