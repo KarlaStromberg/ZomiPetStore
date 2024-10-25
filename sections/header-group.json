@@ -51,7 +51,7 @@
         "mobile_logo_width": 90,
         "menu_font_size": 20,
         "menu_font_style": "lowercase",
-        "menu_font_weight": "normal",
+        "menu_font_weight": "bold",
         "menu": "main-menu",
         "menu_type_desktop": "mega",
         "first_image": "shopify://shop_images/2_cc0935b3-1840-4040-b762-1f123116c4fe.jpg",
