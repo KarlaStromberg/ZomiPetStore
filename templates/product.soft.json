@@ -99,7 +99,7 @@
         "complementary_7LM6XE"
       ],
       "custom_css": [
-        ".complementary-slide--card .card, .complementary-slide--card .card button {background-color: transparent !important;}"
+        ".complementary-slide--card .card,.complementary-slide--card .card button {background-color: transparent !important;}"
       ],
       "settings": {
         "enable_sticky_info": true,
@@ -115,6 +115,49 @@
         "enable_video_looping": false,
         "padding_top": 100,
         "padding_bottom": 12
+      }
+    },
+    "multicolumn_zUAwq8": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_BLbY6R": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_pnyCgT": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_BLbY6R",
+        "column_pnyCgT"
+      ],
+      "settings": {
+        "title": "Multicolumn",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "Button label",
+        "button_link": "",
+        "color_scheme": "scheme-b0a2c5b5-1cb3-479b-b13c-e5f74233c21b",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "related-products": {
@@ -138,6 +181,7 @@
   },
   "order": [
     "main",
+    "multicolumn_zUAwq8",
     "related-products"
   ]
 }
