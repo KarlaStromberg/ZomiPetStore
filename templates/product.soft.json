@@ -98,6 +98,9 @@
         "collapsible_tab_HYqjqr",
         "complementary_7LM6XE"
       ],
+      "custom_css": [
+        ".complementary-slide--card .card, .complementary-slide--card .card button {background-color: transparent !important;}"
+      ],
       "settings": {
         "enable_sticky_info": true,
         "color_scheme": "scheme-b0a2c5b5-1cb3-479b-b13c-e5f74233c21b",
