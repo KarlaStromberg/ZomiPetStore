@@ -124,7 +124,7 @@
           "type": "column",
           "repeater": "{{ product.metafields.custom.multi_column_section_product_page.value }}",
           "settings": {
-            "title": "{{ block.repeater.headings.value }}",
+            "title": "<strong>{{ block.repeater.headings.value }}</strong>",
             "text": "{{ block.repeater.description | metafield_tag }}",
             "link_label": "{{ block.repeater.link_label.value }}",
             "link": "{{ block.repeater.link.value }}"
