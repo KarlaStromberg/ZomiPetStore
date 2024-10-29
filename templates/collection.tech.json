@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "banner": {
@@ -5,7 +14,7 @@
       "settings": {
         "show_collection_description": true,
         "show_collection_image": true,
-        "color_scheme": "scheme-3dd1020e-99c8-4f19-bc95-ccfb812f90c6"
+        "color_scheme": "scheme-b0a2c5b5-1cb3-479b-b13c-e5f74233c21b"
       }
     },
     "product-grid": {

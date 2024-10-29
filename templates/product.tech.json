@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -178,7 +187,7 @@
           "type": "column",
           "repeater": "{{ product.metafields.custom.multi_column_section_product_page.value }}",
           "settings": {
-            "title": "<strong>{{ block.repeater.headings.value }}<\/strong>",
+            "title": "<strong>{{ block.repeater.headings.value }}</strong>",
             "text": "{{ block.repeater.description | metafield_tag }}",
             "link_label": "{{ block.repeater.link_label.value }}",
             "link": "{{ block.repeater.link.value }}"
