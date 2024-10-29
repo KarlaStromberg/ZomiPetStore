@@ -68,6 +68,7 @@
   text-decoration: none;
   transition: text-decoration var(--duration-short) ease;
   word-wrap: break-word;
+  font-weight: 400;
 }
 
 .mega-menu__link--level-2 {

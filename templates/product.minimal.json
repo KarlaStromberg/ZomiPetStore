@@ -1,12 +1,3 @@
-/*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
 {
   "sections": {
     "main": {
@@ -30,7 +21,7 @@
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
-            "picker_type": "button",
+            "picker_type": "dropdown",
             "swatch_shape": "circle"
           }
         },
@@ -75,14 +66,14 @@
         "complementary_7LM6XE": {
           "type": "complementary",
           "settings": {
-            "block_heading": "Pairs well with",
+            "block_heading": "You may also need",
             "make_collapsible_row": false,
-            "icon": "price_tag",
+            "icon": "gluten_free",
             "product_list_limit": 10,
             "products_per_page": 3,
             "pagination_style": "counter",
             "image_ratio": "square",
-            "enable_quick_add": false
+            "enable_quick_add": true
           }
         }
       },
@@ -98,6 +89,9 @@
         "collapsible_tab_HYqjqr",
         "complementary_7LM6XE"
       ],
+      "custom_css": [
+        ".complementary-slide--card .card,.complementary-slide--card .card button {background-color: transparent !important;}"
+      ],
       "settings": {
         "enable_sticky_info": true,
         "color_scheme": "scheme-1",
@@ -111,7 +105,104 @@
         "hide_variants": true,
         "enable_video_looping": false,
         "padding_top": 100,
+        "padding_bottom": 60
+      }
+    },
+    "image_banner_BCH7Ln": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_BqCpPk": {
+          "type": "heading",
+          "settings": {
+            "heading": "",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_BqCpPk"
+      ],
+      "settings": {
+        "image": "{{ product.metafields.custom.imagebanner1.value }}",
+        "image_2": "{{ product.metafields.custom.imagebanner2.value }}",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "newsletter_ehtUYw": {
+      "type": "newsletter",
+      "blocks": {
+        "heading_GDbGQe": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Zomi<\/strong> club",
+            "heading_size": "h1"
+          }
+        },
+        "paragraph_Re69r4": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Get 10% off for all purchases!<\/p>"
+          }
+        },
+        "email_form_mNAxng": {
+          "type": "email_form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "heading_GDbGQe",
+        "paragraph_Re69r4",
+        "email_form_mNAxng"
+      ],
+      "settings": {
+        "color_scheme": "scheme-3",
+        "full_width": true,
+        "padding_top": 4,
         "padding_bottom": 12
+      }
+    },
+    "multicolumn_zUAwq8": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_BLbY6R": {
+          "type": "column",
+          "repeater": "{{ product.metafields.custom.multi_column_section_product_page.value }}",
+          "settings": {
+            "title": "<strong>{{ block.repeater.headings.value }}<\/strong>",
+            "text": "{{ block.repeater.description | metafield_tag }}",
+            "link_label": "{{ block.repeater.link_label.value }}",
+            "link": "{{ block.repeater.link.value }}"
+          }
+        }
+      },
+      "block_order": [
+        "column_BLbY6R"
+      ],
+      "settings": {
+        "title": "What are the benefits of the {{ product.title }}?",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 88,
+        "padding_bottom": 36
       }
     },
     "related-products": {
@@ -135,6 +226,9 @@
   },
   "order": [
     "main",
+    "image_banner_BCH7Ln",
+    "newsletter_ehtUYw",
+    "multicolumn_zUAwq8",
     "related-products"
   ]
 }

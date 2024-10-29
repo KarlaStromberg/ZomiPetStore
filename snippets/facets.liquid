@@ -63,7 +63,7 @@
                       id="verticalTitle"
                       tabindex="-1"
                     >
-                      {{ 'products.facets.filter_by_label' | t }}
+                      {{ 'products.facets.filter_by_label' | t }} 
                     </h2>
                   {%- endunless -%}
                   <facet-remove class="active-facets__button-wrapper">
@@ -77,7 +77,7 @@
                     <facet-remove>
                       <a href="{{ value.url_to_remove }}" class="active-facets__button active-facets__button--light">
                         <span class="active-facets__button-inner button button--tertiary">
-                          {{ filter.label | escape }}: {{ value.label | escape }}
+                          {{ filter.label | escape }} : {{ value.label | escape }} 
                           {% render 'icon-close-small' %}
                           <span class="visually-hidden">{{ 'products.facets.clear_filter' | t }}</span>
                         </span>
@@ -117,6 +117,7 @@
                   assign show_more_number = 10
                   assign visual_layout_class = 'facets-layout facets-layout-list facets-layout-list--' | append: presentation
                 endif
+                
               %}
 
               {% case filter.type %}
@@ -138,6 +139,7 @@
                           {{- filter.label | escape }}
                           {%- if filter_type == 'vertical' -%}
                             <span class="facets__selected{% if filter.active_values.size == 0 %} hidden{% endif %}">
+                              
                               ({{ filter.active_values.size }})</span
                             >
                           {%- endif -%}
@@ -200,7 +202,8 @@
                             facets__label facet-checkbox{% if is_disabled %} disabled{% endif %}{% if value.active %} active{% endif %}
                             {%- endcapture -%}
 
-                            {%- capture text_value -%}
+                          
+                            {%- capture text_value -%} 
                               <span class="facet-checkbox__text" aria-hidden="true">
                                 <span class="facet-checkbox__text-label">{{- value.label | escape }}</span> ({{- value.count -}})
                               </span>
@@ -231,7 +234,7 @@
                                     %}
                                   </div>
 
-                                  {{ text_value }}
+                                  {{ text_value }} 
                                 </div>
                               {%- else -%}
                                 <label for="{{ input_id }}" class="{{ label_class }}">
@@ -257,6 +260,7 @@
                                           | image_tag: class: 'facets__image', alt: value.alt
                                         }}
                                       {%- endif -%}
+
                                     </div>
                                   {%- else -%}
                                     <svg

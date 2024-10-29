@@ -1,23 +1,14 @@
-/*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
 {
   "current": {
-    "logo": "shopify://shop_images/Logo-Zomi.png",
+    "logo": "shopify:\/\/shop_images\/Logo-Zomi.png",
     "logo_width": 150,
-    "favicon": "shopify://shop_images/favicon.png",
+    "favicon": "shopify:\/\/shop_images\/favicon.png",
     "type_header_font": "madera_n4",
     "heading_scale": 100,
     "type_body_font": "scene_n4",
     "body_scale": 100,
     "page_width": 1600,
-    "spacing_sections": 32,
+    "spacing_sections": 0,
     "spacing_grid_horizontal": 28,
     "spacing_grid_vertical": 28,
     "animations_reveal_on_scroll": true,
@@ -108,7 +99,7 @@
     "sale_badge_color_scheme": "scheme-4",
     "sold_out_badge_color_scheme": "scheme-3",
     "brand_headline": "",
-    "brand_description": "<p></p>",
+    "brand_description": "<p><\/p>",
     "brand_image_width": 100,
     "social_facebook_link": "google.com",
     "social_instagram_link": "google.com",
@@ -229,6 +220,50 @@
           "background_gradient": "linear-gradient(270deg, rgba(240, 110, 105, 1), rgba(249, 208, 163, 1) 100%)",
           "text": "#414a4c",
           "button": "#b3e6f1",
+          "button_label": "#faf9f6",
+          "secondary_button_label": "#414a4c",
+          "shadow": "#414a4c"
+        }
+      },
+      "scheme-b0a2c5b5-1cb3-479b-b13c-e5f74233c21b": {
+        "settings": {
+          "background": "#f3f3f3",
+          "background_gradient": "linear-gradient(270deg, rgba(255, 227, 211, 1), rgba(248, 210, 224, 1) 100%)",
+          "text": "#414a4c",
+          "button": "#121212",
+          "button_label": "#faf9f6",
+          "secondary_button_label": "#414a4c",
+          "shadow": "#414a4c"
+        }
+      },
+      "scheme-69b75569-345f-4225-9a39-74f31b1512bb": {
+        "settings": {
+          "background": "#faf9f6",
+          "background_gradient": "linear-gradient(180deg, rgba(243, 243, 243, 1) 50%, rgba(254, 98, 146, 1) 100%)",
+          "text": "#000000",
+          "button": "#121212",
+          "button_label": "#faf9f6",
+          "secondary_button_label": "#414a4c",
+          "shadow": "#414a4c"
+        }
+      },
+      "scheme-3dd1020e-99c8-4f19-bc95-ccfb812f90c6": {
+        "settings": {
+          "background": "#faf9f6",
+          "background_gradient": "linear-gradient(239deg, rgba(185, 220, 230, 1), rgba(203, 201, 230, 1) 100%)",
+          "text": "#414a4c",
+          "button": "#121212",
+          "button_label": "#faf9f6",
+          "secondary_button_label": "#414a4c",
+          "shadow": "#414a4c"
+        }
+      },
+      "scheme-ddb4b1c7-22c3-4568-8358-90a38891290b": {
+        "settings": {
+          "background": "#faf9f6",
+          "background_gradient": "linear-gradient(2deg, rgba(156, 217, 235, 1) 14%, rgba(243, 243, 243, 1) 60%)",
+          "text": "#414a4c",
+          "button": "#121212",
           "button_label": "#faf9f6",
           "secondary_button_label": "#414a4c",
           "shadow": "#414a4c"
@@ -392,7 +427,7 @@
       "sale_badge_color_scheme": "scheme-4",
       "sold_out_badge_color_scheme": "scheme-3",
       "brand_headline": "",
-      "brand_description": "<p></p>",
+      "brand_description": "<p><\/p>",
       "brand_image_width": 100,
       "social_twitter_link": "",
       "social_facebook_link": "",

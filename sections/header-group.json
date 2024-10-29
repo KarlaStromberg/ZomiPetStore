@@ -1,12 +1,3 @@
-/*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
 {
   "name": "t:sections.header.name",
   "type": "header",
@@ -47,10 +38,17 @@
       "type": "header",
       "settings": {
         "logo_position": "left-center",
+        "transparent_header": true,
+        "mobile_logo_width": 90,
         "menu_font_size": 20,
         "menu_font_style": "lowercase",
+        "menu_font_weight": "bold",
         "menu": "main-menu",
         "menu_type_desktop": "mega",
+        "first_image": "shopify:\/\/shop_images\/2_cc0935b3-1840-4040-b762-1f123116c4fe.jpg",
+        "first_image_link": "shopify:\/\/collections\/all",
+        "second_image": "shopify:\/\/shop_images\/1_96886799-4d29-44b6-80cc-78f4c71e6549.jpg",
+        "second_image_link": "shopify:\/\/collections\/water-fountains",
         "sticky_header_type": "always",
         "show_line_separator": false,
         "color_scheme": "scheme-570fa366-da6a-4357-b3f3-132ef25df9ad",
@@ -60,7 +58,7 @@
         "enable_customer_avatar": true,
         "mobile_logo_position": "center",
         "margin_bottom": 0,
-        "padding_top": 8,
+        "padding_top": 12,
         "padding_bottom": 8
       }
     }
