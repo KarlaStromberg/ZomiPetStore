@@ -315,6 +315,61 @@
   </div>
 </footer>
 
+{% if section.settings.collapse_tabs %}
+  
+<style>
+  @media screen and (max-width: 767px) {
+    .footer-block.grid__item {
+      margin: 0;
+    }
+    .footer-block--menu .footer-block__details-content {
+      display: none;
+    }
+    .footer-block--menu .footer-block__heading {
+      border-bottom: solid 1px #ddd;
+      padding-bottom: 16px;
+      position: relative; /* Ensure that the pseudo-element is positioned correctly */
+    }
+   
+    .footer-block.grid__item:is(.footer-block--menu)  .footer-block__heading::after {
+      content: "+";
+      position: absolute;
+      right: 12%;
+      font-weight: bold;
+    }
+    .footer-block.grid__item:is(.footer-block--menu) .footer-block__heading.active::after {
+      content: "-" !important;
+    }
+  }
+</style>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  // Select all elements with the class footer-block__heading
+  const headings = document.querySelectorAll('.footer-block--menu .footer-block__heading');
+
+  // Add click event listener to each heading
+  headings.forEach(function(heading) {
+    heading.addEventListener('click', function() {
+      // Toggle visibility of the corresponding footer-block__details-content
+      const detailsContent = heading.nextElementSibling;
+      if (detailsContent && detailsContent.classList.contains('footer-block__details-content')) {
+        if (heading.classList.contains('active')) {
+          // If the heading is already active, hide the details content
+          detailsContent.style.display = 'none';
+          heading.classList.remove('active');
+        } else {
+          // If the heading is not active, show the details content and add active class
+          detailsContent.style.display = 'block';
+          heading.classList.add('active');
+        }
+      }
+    });
+  });
+});
+</script>
+{% endif %}
+
+
 {% schema %}
 {
   "name": "t:sections.footer.name",
@@ -439,6 +494,12 @@
       "id": "newsletter_enable",
       "default": true,
       "label": "t:sections.footer.settings.newsletter_enable.label"
+    },
+    {
+      "type": "checkbox",
+      "id": "collapse_tabs",
+      "default": true,
+      "label": "t:sections.footer.settings.collapse_tabs.label"
     },
     {
       "type": "inline_richtext",
