@@ -868,6 +868,9 @@
         "newsletter_enable": {
           "label": "Afficher l'inscription à la liste de diffusion"
         },
+        "collapse_tabs": {
+          "label": "Collapse menus on mobile"
+        },
         "newsletter_heading": {
           "label": "En-tête",
           "default": "S’abonner à nos e-mails"
@@ -1011,6 +1014,9 @@
             "label": "Tiroir"
           }
         },
+        "menu_item_padding": {
+          "label": "Espacement des éléments de menu"
+      },
         "mobile_layout": {
           "content": "Mise en page sur mobile"
         },

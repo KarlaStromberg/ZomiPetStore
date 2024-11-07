@@ -1028,6 +1028,9 @@
         "newsletter_enable": {
           "label": "Show email signup"
         },
+        "collapse_tabs": {
+          "label": "Collapse menus on mobile"
+        },
         "newsletter_heading": {
           "label": "Heading",
           "default": "Subscribe to our emails"
@@ -1155,6 +1158,9 @@
           "options__3": {
             "label": "Drawer"
           }
+        },
+        "menu_item_padding": {
+            "label": "Menu item spacing"
         },
         "first_image": {
           "label": "Mega menu image"
