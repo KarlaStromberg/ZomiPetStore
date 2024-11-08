@@ -31,7 +31,9 @@
       "block_order": [
         "heading_PxNytb"
       ],
-      "custom_css": [],
+      "custom_css": [
+        "@media screen and (max-width: 700px) {.banner__heading {float: right; max-width: 230px;}}"
+      ],
       "settings": {
         "image": "shopify://shop_images/Photos_wojOsZmUGF.png",
         "image_overlay_opacity": 0,
