@@ -11,6 +11,7 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
@@ -22,30 +23,30 @@
         "row_bykWw9": {
           "type": "row",
           "settings": {
-            "caption": "Caption",
-            "heading": "Row",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "button_label": "Button label",
+            "caption": "From Dream to Design",
+            "heading": "<strong>How Zomi Began</strong>",
+            "text": "<p>Zomi started with a simple but persistent dream by <strong>Lena Torres</strong>—a designer with a love for pets and a knack for finding beauty in the little things. </p><p>Lena had always struggled to find pet products that didn’t clash with her minimal, modern style at home. She wanted things that were both functional for her cat, Nico, and something she could proudly display. </p><p>So, she set out to create Zomi, a place for pet essentials that look and feel just right in any space.</p>",
+            "button_label": "",
             "button_link": ""
           }
         },
         "row_QjNyrV": {
           "type": "row",
           "settings": {
-            "caption": "Caption",
-            "heading": "Row",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "button_label": "Button label",
+            "caption": "A Brand with Heart",
+            "heading": "Our Why",
+            "text": "<p>Zomi isn’t just a brand—it’s a passion project inspired by a love of pets and beautiful design.</p><p>Every product at Zomi is handpicked by Lena herself, who knows that modern pet parents want to give their furry friends the best while keeping their home’s aesthetic intact.</p>",
+            "button_label": "",
             "button_link": ""
           }
         },
         "row_t43q3c": {
           "type": "row",
           "settings": {
-            "caption": "Caption",
-            "heading": "Row",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "button_label": "Button label",
+            "caption": "What Drives Us",
+            "heading": "<strong>For You & Your Pet</strong>",
+            "text": "<p>At Zomi, we know that a well-designed home includes every member of the family, furry friends included. Our collection brings that sense of harmony into your space, with pieces that are both functional and</p>",
+            "button_label": "",
             "button_link": ""
           }
         }
