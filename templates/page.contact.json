@@ -39,9 +39,7 @@
         "heading_PxNytb",
         "text_X6mVUx"
       ],
-      "custom_css": [
-        ".banner__content {position: relative; z-index: 2;}"
-      ],
+      "custom_css": [],
       "settings": {
         "image": "shopify://shop_images/Photos_wojOsZmUGF.png",
         "image_overlay_opacity": 0,
@@ -58,9 +56,7 @@
     },
     "form": {
       "type": "contact-form",
-      "custom_css": [
-        ".contact{position:relative; z-index:1;}"
-      ],
+      "custom_css": [],
       "settings": {
         "heading": "Send us your message",
         "heading_size": "h0",
