@@ -50,10 +50,10 @@
       "type": "contact-form",
       "custom_css": [],
       "settings": {
-        "heading": "Send us your message",
+        "heading": "",
         "heading_size": "h0",
         "color_scheme": "scheme-88d3272f-0947-4ef9-a6a3-1dc4792380e8",
-        "padding_top": 56,
+        "padding_top": 12,
         "padding_bottom": 56
       }
     }
