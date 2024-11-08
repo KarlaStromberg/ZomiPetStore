@@ -59,6 +59,9 @@
         "row_QjNyrV",
         "row_t43q3c"
       ],
+      "custom_css": [
+        ".multirow__inner{row-gap:0;}"
+      ],
       "settings": {
         "image_height": "medium",
         "desktop_image_width": "medium",
