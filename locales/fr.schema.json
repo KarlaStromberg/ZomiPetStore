@@ -1544,6 +1544,10 @@
         "products_per_page": {
           "label": "Produits par page"
         },
+        "hide_stock": {
+          "label": "Cacher les produits en rupture de stock",
+          "info": "Seuls les produits dont toutes les variantes sont épuisées seront retirés de la collection"
+        },
         "enable_filtering": {
           "label": "Activer le filtrage",
           "info": "Personnalisez les filtres avec l’application Search & Discovery. [En savoir plus](https:\/\/help.shopify.com\/manual\/online-store\/search-and-discovery\/filters)"
