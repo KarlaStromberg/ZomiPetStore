@@ -9,9 +9,9 @@
  */
 {
   "current": {
-    "logo": "shopify:\/\/shop_images\/Logo-Zomi.png",
+    "logo": "shopify://shop_images/Logo-Zomi.png",
     "logo_width": 150,
-    "favicon": "shopify:\/\/shop_images\/favicon.png",
+    "favicon": "shopify://shop_images/favicon.png",
     "type_header_font": "madera_n4",
     "heading_scale": 100,
     "type_body_font": "scene_n4",
@@ -108,7 +108,7 @@
     "sale_badge_color_scheme": "scheme-4",
     "sold_out_badge_color_scheme": "scheme-3",
     "brand_headline": "",
-    "brand_description": "<p><\/p>",
+    "brand_description": "<p></p>",
     "brand_image_width": 100,
     "social_facebook_link": "google.com",
     "social_instagram_link": "google.com",
@@ -142,9 +142,7 @@
         }
       }
     },
-    "content_for_index": [
-
-    ],
+    "content_for_index": [],
     "color_schemes": {
       "scheme-1": {
         "settings": {
@@ -271,6 +269,17 @@
         "settings": {
           "background": "#faf9f6",
           "background_gradient": "linear-gradient(2deg, rgba(156, 217, 235, 1) 14%, rgba(243, 243, 243, 1) 60%)",
+          "text": "#414a4c",
+          "button": "#121212",
+          "button_label": "#faf9f6",
+          "secondary_button_label": "#414a4c",
+          "shadow": "#414a4c"
+        }
+      },
+      "scheme-88d3272f-0947-4ef9-a6a3-1dc4792380e8": {
+        "settings": {
+          "background": "#f3f3f3",
+          "background_gradient": "linear-gradient(310deg, rgba(252, 212, 151, 1) 19%, rgba(250, 217, 166, 1) 82%)",
           "text": "#414a4c",
           "button": "#121212",
           "button_label": "#faf9f6",
@@ -436,7 +445,7 @@
       "sale_badge_color_scheme": "scheme-4",
       "sold_out_badge_color_scheme": "scheme-3",
       "brand_headline": "",
-      "brand_description": "<p><\/p>",
+      "brand_description": "<p></p>",
       "brand_image_width": 100,
       "social_twitter_link": "",
       "social_facebook_link": "",
@@ -473,8 +482,6 @@
     }
   },
   "platform_customizations": {
-    "custom_css": [
-
-    ]
+    "custom_css": []
   }
 }
