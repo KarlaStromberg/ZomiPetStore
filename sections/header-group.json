@@ -54,6 +54,7 @@
         "menu_font_weight": "bold",
         "menu": "main-menu",
         "menu_type_desktop": "mega",
+        "menu_item_padding": 4,
         "first_image": "shopify://shop_images/2_cc0935b3-1840-4040-b762-1f123116c4fe.jpg",
         "first_image_link": "shopify://collections/all",
         "second_image": "shopify://shop_images/1_96886799-4d29-44b6-80cc-78f4c71e6549.jpg",
