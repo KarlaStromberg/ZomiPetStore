@@ -1090,6 +1090,9 @@
         "image_2": {
           "label": "Deuxième image"
         },
+        "imagemobile": {
+          "label": "Mobile image"
+        },
         "stack_images_on_mobile": {
           "label": "Empiler des images sur un mobile"
         },
