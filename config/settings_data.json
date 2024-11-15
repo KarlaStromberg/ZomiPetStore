@@ -482,6 +482,8 @@
     }
   },
   "platform_customizations": {
-    "custom_css": []
+    "custom_css": [
+      ".card__heading a:after {text-decoration:none;}"
+    ]
   }
 }
