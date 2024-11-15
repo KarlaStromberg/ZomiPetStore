@@ -59,6 +59,9 @@
         "featured_collection_PRBMgK",
         "featured_collection_a8CTKQ"
       ],
+      "custom_css": [
+        ".card__heading{text-align:center;}"
+      ],
       "settings": {
         "title": "View more collections",
         "heading_size": "h1",
