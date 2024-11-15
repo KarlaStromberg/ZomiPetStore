@@ -45,6 +45,13 @@
     },
     "header": {
       "type": "header",
+      "custom_css": [
+        ".mega-menu__list a {text-decoration: none;}",
+        ".mega-menu__list a:hover {font-weight: bold;}",
+        ".header__menu-item:hover {text-decoration: wavy underline;}",
+        ".header__menu-item:hover span {text-decoration: none;}",
+        ".header__active-menu-item {transition: none; text-decoration: wavy underline;}"
+      ],
       "settings": {
         "logo_position": "left-center",
         "transparent_header": true,
