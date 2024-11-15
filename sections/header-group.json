@@ -50,7 +50,8 @@
         ".mega-menu__list a:hover {font-weight: bold;}",
         ".header__menu-item:hover {text-decoration: wavy underline;}",
         ".header__menu-item:hover span {text-decoration: none;}",
-        ".header__active-menu-item {transition: none; text-decoration: wavy underline;}"
+        ".header__active-menu-item {transition: none; text-decoration: wavy underline;}",
+        "details > .header__menu-item {text-decoration: none;}"
       ],
       "settings": {
         "logo_position": "left-center",
