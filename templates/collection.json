@@ -42,36 +42,29 @@
     "collection_list_bRJgQf": {
       "type": "collection-list",
       "blocks": {
-        "featured_collection_BztQQi": {
+        "featured_collection_PRBMgK": {
           "type": "featured_collection",
           "settings": {
-            "collection": ""
+            "collection": "{{ collection.metafields.custom.collection_suggestion_1.value }}"
           }
         },
-        "featured_collection_NKM8R9": {
+        "featured_collection_a8CTKQ": {
           "type": "featured_collection",
           "settings": {
-            "collection": ""
-          }
-        },
-        "featured_collection_Dkn6LW": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": ""
+            "collection": "{{ collection.metafields.custom.collection_suggestion_2.value }}"
           }
         }
       },
       "block_order": [
-        "featured_collection_BztQQi",
-        "featured_collection_NKM8R9",
-        "featured_collection_Dkn6LW"
+        "featured_collection_PRBMgK",
+        "featured_collection_a8CTKQ"
       ],
       "settings": {
-        "title": "Collections",
+        "title": "View more collections",
         "heading_size": "h1",
         "image_ratio": "adapt",
-        "columns_desktop": 3,
-        "color_scheme": "",
+        "columns_desktop": 2,
+        "color_scheme": "scheme-1",
         "show_view_all": false,
         "columns_mobile": "2",
         "swipe_on_mobile": false,
