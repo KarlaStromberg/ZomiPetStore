@@ -60,7 +60,7 @@
         "featured_collection_a8CTKQ"
       ],
       "custom_css": [
-        ".card__heading{text-align:center;}"
+        ".card__heading {text-align: center; font-weight:bold;}"
       ],
       "settings": {
         "title": "View more collections",
