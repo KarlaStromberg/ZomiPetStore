@@ -483,7 +483,7 @@
   },
   "platform_customizations": {
     "custom_css": [
-      ".card__heading a:after {text-decoration:none;}"
+      ".card__heading .full-unstyled-link:hover {text-decoration: none;}"
     ]
   }
 }
