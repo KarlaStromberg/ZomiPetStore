@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "image_banner": {
@@ -16,7 +16,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "Shop now",
-            "button_link_1": "shopify:\/\/collections\/all",
+            "button_link_1": "shopify://collections/all",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -28,11 +28,11 @@
         "button"
       ],
       "custom_css": [
-        ".media > img {object-position: right center;}",
         ".button {font-weight: bold; --shadow-opacity: 0;}"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/1.png",
+        "image": "shopify://shop_images/1.png",
+        "imagemobile": "shopify://shop_images/Bestsellers.png",
         "image_overlay_opacity": 0,
         "image_height": "large",
         "desktop_content_position": "bottom-center",
@@ -42,7 +42,7 @@
         "image_behavior": "none",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": false,
-        "show_text_below": true
+        "show_text_below": false
       }
     },
     "featured_collection": {
@@ -51,7 +51,7 @@
         ".title a {text-decoration: none;}"
       ],
       "settings": {
-        "title": "<a href=\"\/collections\/all\" title=\"All\">Shop Bestsellers<\/a>",
+        "title": "<a href=\"/collections/all\" title=\"All\">Shop Bestsellers</a>",
         "heading_size": "h1",
         "description": "",
         "show_description": false,
@@ -79,7 +79,7 @@
     "image_banner_QgEpri": {
       "type": "image-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/2.png",
+        "image": "shopify://shop_images/2.png",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "desktop_content_position": "bottom-right",
@@ -104,8 +104,7 @@
         },
         "email_form_gXfJrH": {
           "type": "email_form",
-          "settings": {
-          }
+          "settings": {}
         }
       },
       "block_order": [
@@ -137,8 +136,7 @@
         },
         "price_MGt43z": {
           "type": "price",
-          "settings": {
-          }
+          "settings": {}
         },
         "variant_picker_txbDgj": {
           "type": "variant_picker",
@@ -149,8 +147,7 @@
         },
         "quantity_selector_iCJRxJ": {
           "type": "quantity_selector",
-          "settings": {
-          }
+          "settings": {}
         },
         "buy_buttons_dQpajL": {
           "type": "buy_buttons",
@@ -213,7 +210,7 @@
         "image_6bmYPR": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Summer_sale.png"
+            "image": "shopify://shop_images/Summer_sale.png"
           }
         },
         "product_NLkQrw": {
@@ -252,7 +249,7 @@
         "slide_8UHKKN": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/3.png",
+            "image": "shopify://shop_images/3.png",
             "heading": "",
             "heading_size": "h1",
             "subheading": "",
