@@ -483,7 +483,8 @@
   },
   "platform_customizations": {
     "custom_css": [
-      ".card__heading .full-unstyled-link:hover {text-decoration: none;}"
+      ".card__heading .full-unstyled-link:hover {text-decoration: none;}",
+      ".collection-hero .page-width {padding-right:0;}"
     ]
   }
 }
